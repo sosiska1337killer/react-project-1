@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #000;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+input::placeholder { color: #6b7280; }
+input:focus, select:focus, button:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 2px;
+}
